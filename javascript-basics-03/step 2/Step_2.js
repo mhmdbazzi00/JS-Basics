@@ -1,4 +1,4 @@
-function toggle_visibility(div) {
+function toggle_visibility() {
     var e = document.getElementById('texte');
     if(e.style.display == 'block')
        e.style.display = 'none';
