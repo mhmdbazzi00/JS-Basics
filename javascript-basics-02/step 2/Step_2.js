@@ -1,4 +1,5 @@
-function modify(){
- document.querySelector('input').onblur = "thank you for participating!";
+function modify() {
+ const input = document.getElementById('name');
+ input.placeholder = "thank you for participating!";
 
 }
